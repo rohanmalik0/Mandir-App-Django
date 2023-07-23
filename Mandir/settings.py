@@ -38,9 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'corsheaders'
     'mandirapi'
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
