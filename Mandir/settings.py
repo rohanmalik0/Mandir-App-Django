@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'Mandir.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
-        'NAME': 'Mandir',
+        'NAME': 'MandirCluster',
         "CLIENT" : {
             'host': 'mongodb+srv://rohanmalikno1:mandir123@mandircluster.e6jzkle.mongodb.net/?retryWrites=true&w=majority',
             'username': 'rohanmalikno1',
