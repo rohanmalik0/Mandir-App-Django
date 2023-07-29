@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'Mandir.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
-        'NAME': 'Mandir',
+        'NAME': 'MandirCluster',
         "CLIENT" : {
             'host': 'mongodb+srv://rohanmalikno1:mandir123@mandircluster.e6jzkle.mongodb.net/?retryWrites=true&w=majority',
             'username': 'rohanmalikno1',
@@ -87,7 +87,12 @@ DATABASES = {
         }
     }
 }
-
+# DATABASES = {
+#       'default': {
+#           'ENGINE': 'djongo',
+#           'NAME': 'mandir-database',
+#       }
+# }  
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
@@ -123,7 +128,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
